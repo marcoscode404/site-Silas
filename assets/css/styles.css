@@ -225,13 +225,14 @@ img{
 .home__img{
   right: 0;
   bottom: 0;
-  width: 50%;
+  width: 70%;
   
 }
 .home__img .div, .img {
   border-radius: 50%;
   padding: 1rem;
   border: 1px solid rgba(64, 72, 99, 0.39);
+  min-width: 5rem;
 }
 
 
@@ -501,7 +502,6 @@ img{
   }
   .home__img{
     width: 26rem;
-    bottom: 30%;
   }
 
   .about__container, .skills__container{
@@ -511,6 +511,7 @@ img{
   }
   .about__img img{
     width: 300px;
+
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
@@ -540,6 +541,3 @@ img{
 }
 
 
-@media screen and (min-width: 524px) {
-  
-}
